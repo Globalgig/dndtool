@@ -1,7 +1,6 @@
 import './CharacterField.css';
 import CharacterEntry from './CharacterEntry.js';
 
-
 function CharacterField() {
   return (
     <div className="CharacterField">
