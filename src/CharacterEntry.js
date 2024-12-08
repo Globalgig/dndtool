@@ -1,9 +1,12 @@
 import './CharacterEntry.css';
+import CharacterStatZone from './CharacterStatZone.js';
+import CharacterConZone from './CharacterConZone.js';
 
 function CharacterEntry() {
   return (
     <div className="CharacterEntry">
-      <p>LOL YOU FOOL</p>
+      <CharacterStatZone />
+      <CharacterConZone />
     </div>
   );
 }

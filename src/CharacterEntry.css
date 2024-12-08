@@ -1,5 +1,5 @@
 .CharacterEntry {
-  border: 5px solid #AAAAAA;
-  border-radius: 10px;
+  text-align: left;
   margin-bottom: 3%;
+  display: flex;
 }
