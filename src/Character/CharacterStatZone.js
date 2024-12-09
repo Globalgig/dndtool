@@ -1,9 +1,12 @@
 import './CharacterStatZone.css';
+import CharacterPrimaryStats from './CharacterPrimaryStats.js';
+import CharacterSecondaryStats from './CharacterSecondaryStats.js';
 
 function CharacterStatZone() {
   return (
     <div className="CharacterStatZone">
-      <p>LOL YOU FOOL</p>
+      <CharacterPrimaryStats />
+      <CharacterSecondaryStats />
     </div>
   );
 }

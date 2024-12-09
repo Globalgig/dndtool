@@ -1,0 +1,21 @@
+.CharacterSecondaryStats {
+  flex: 5;
+}
+
+.StatSubunit {
+  height: 33%;
+  text-align: center;
+  align-content: center;
+}
+
+.Initiative {
+  color: #D0E562;
+}
+
+.AC {
+  color: #70D6FF;
+}
+
+.Health {
+  color: #C94277;
+}
