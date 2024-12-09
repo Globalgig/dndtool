@@ -1,3 +1,4 @@
+import CharacterModBox from './CharacterModBox';
 import './CSS/CharacterSecondaryStats.css';
 
 function CharacterSecondaryStats() {
@@ -27,6 +28,12 @@ function CharacterMiddleStats() {
 function CharacterBottomStats() {
   return (
     <div className="CharacterBottomStats">
+      <CharacterModBox ability="Strength"/>
+      <CharacterModBox ability="Dexterity"/>
+      <CharacterModBox ability="Constitution"/>
+      <CharacterModBox ability="Intelligence"/>
+      <CharacterModBox ability="Wisdom"/>
+      <CharacterModBox ability="Charisma"/>
     </div>
   );
 }

@@ -1,21 +1,20 @@
 .CharacterSecondaryStats {
   flex: 5;
+  display: flex;
+  flex-direction: column;
 }
 
-.StatSubunit {
-  height: 33%;
-  text-align: center;
-  align-content: center;
+.CharacterTopStats {
+  flex: 2;
+  border-bottom: 2px solid #AAAAAA;
 }
 
-.Initiative {
-  color: #D0E562;
+.CharacterMiddleStats {
+  flex: 4;
+  border-bottom: 2px solid #AAAAAA;
 }
 
-.AC {
-  color: #70D6FF;
-}
-
-.Health {
-  color: #C94277;
+.CharacterBottomStats {
+  flex: 2;
+  display: flex;
 }

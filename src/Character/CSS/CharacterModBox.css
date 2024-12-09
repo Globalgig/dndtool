@@ -1,0 +1,44 @@
+.CharacterModBox {
+  flex: 1;
+  margin: 5px;
+  border: 2px solid #AAAAAA;
+  border-radius: 10px;
+  text-align:center;
+  align-content: center;
+  color: #000000;
+  font-weight: bold;
+}
+
+.Strength {
+  background-color: #C94277;
+}
+
+.Dexterity {
+  background-color: #B7C483;
+}
+
+.Constitution {
+  background-color: #FC9F5B;
+}
+
+.Intelligence {
+  background-color: #70D6FF;
+}
+
+.Wisdom {
+  background-color: #7D70BA;
+}
+
+.Charisma {
+  background-color: #F397D6;
+}
+
+
+/* 
+#C94277 - Red
+#70D6FF - Blue
+#B7C483 - Green 
+#FC9F5B - Orange
+#D991BA - Maybe pink
+#A491D3 - Purple
+*/
