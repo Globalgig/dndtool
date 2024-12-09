@@ -1,4 +1,4 @@
-import './CharacterStatZone.css';
+import './CSS/CharacterStatZone.css';
 import CharacterPrimaryStats from './CharacterPrimaryStats.js';
 import CharacterSecondaryStats from './CharacterSecondaryStats.js';
 

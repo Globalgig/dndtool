@@ -1,4 +1,4 @@
-import './CharacterPrimaryStats.css';
+import './CSS/CharacterPrimaryStats.css';
 
 function CharacterPrimaryStats() {
   return (

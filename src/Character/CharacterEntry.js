@@ -1,4 +1,4 @@
-import './CharacterEntry.css';
+import './CSS/CharacterEntry.css';
 import CharacterStatZone from './CharacterStatZone.js';
 import CharacterConZone from './CharacterConZone.js';
 

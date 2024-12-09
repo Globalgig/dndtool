@@ -1,4 +1,4 @@
-import './CharacterConZone.css';
+import './CSS/CharacterConZone.css';
 
 function CharacterConZone() {
   return (

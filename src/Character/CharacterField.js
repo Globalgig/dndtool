@@ -1,4 +1,4 @@
-import './CharacterField.css';
+import './CSS/CharacterField.css';
 import CharacterEntry from './CharacterEntry.js';
 
 function CharacterField() {
