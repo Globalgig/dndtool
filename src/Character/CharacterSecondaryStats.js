@@ -1,5 +1,7 @@
 import CharacterModBox from './CharacterModBox';
+import EditableText from '../EditableText.js';
 import './CSS/CharacterSecondaryStats.css';
+import { useState } from 'react';
 
 function CharacterSecondaryStats() {
   return (
@@ -12,8 +14,21 @@ function CharacterSecondaryStats() {
 }
 
 function CharacterTopStats() {
+  const [isEditing, setIsEditing] = useState(false)
+  const [characterID, setCharacterID] = useState(1)
+
+  const handleDoubleClick = () => {
+    setIsEditing(true);
+  };
+
   return (
     <div className="CharacterTopStats">
+      <div className="CharacterIDNumber">
+        <EditableText initialText={3} />
+      </div>
+      <div className="CharacterName">
+        <EditableText initialText={"KILLMOG THE DESTROYER"} />
+      </div>
     </div>
   );
 }

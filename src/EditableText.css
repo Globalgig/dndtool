@@ -1,0 +1,16 @@
+.Text {
+    text-align:center;
+    align-content: center;
+    font-weight: bold;
+    height: 100%;
+  }
+  
+  /* Eval if these are necessary for the input */
+  input {
+    border: none;
+    display: inline;
+    font-family: inherit;
+    font-size: inherit;
+    padding: none;
+    width: 85%;
+  }
