@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dndtool/static/css/main.ea0a76e1.css",
+    "main.js": "/dndtool/static/js/main.7c6d69c9.js",
+    "static/js/453.5c62f771.chunk.js": "/dndtool/static/js/453.5c62f771.chunk.js",
+    "index.html": "/dndtool/index.html",
+    "main.ea0a76e1.css.map": "/dndtool/static/css/main.ea0a76e1.css.map",
+    "main.7c6d69c9.js.map": "/dndtool/static/js/main.7c6d69c9.js.map",
+    "453.5c62f771.chunk.js.map": "/dndtool/static/js/453.5c62f771.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea0a76e1.css",
+    "static/js/main.7c6d69c9.js"
+  ]
+}
