@@ -2,10 +2,10 @@ import './CSS/CharacterStatZone.css';
 import CharacterPrimaryStats from './CharacterPrimaryStats.js';
 import CharacterSecondaryStats from './CharacterSecondaryStats.js';
 
-function CharacterStatZone() {
+function CharacterStatZone({setEntries, entry}) {
   return (
     <div className="CharacterStatZone">
-      <CharacterPrimaryStats />
+      <CharacterPrimaryStats setEntries={setEntries} entry={entry}/>
       <CharacterSecondaryStats />
     </div>
   );
